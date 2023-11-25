@@ -1,0 +1,30 @@
+{
+  "name": "@jiejaitt/learnjts",
+  "version": "1.0.0",
+  "description": "Learn JS and TS through actual combat",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "jest": {
+    "collectCoverage": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JIeJaitt/learnjts.git"
+  },
+  "author": "JIeJaitt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JIeJaitt/learnjts/issues"
+  },
+  "homepage": "https://github.com/JIeJaitt/learnjts#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+    "eslint": "^8.14.0",
+    "jest": "^28.0.2"
+  }
+}
